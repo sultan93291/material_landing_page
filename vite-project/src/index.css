@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Box_root {
+  height: 1024px;
+  width: 756px;
+  background-color: #fff;
+  padding-top: 225px;
+  padding-left: 190px;
+  padding-bottom: 119px;
+ 
+}
+
+.img_box {
+  height: 1024px;
+  width: 684px;
+}
+
+.img_box img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
