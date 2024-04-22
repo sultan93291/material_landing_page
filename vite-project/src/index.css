@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -35,7 +41,6 @@ a {
   padding-top: 225px;
   padding-left: 190px;
   padding-bottom: 119px;
- 
 }
 
 .img_box {
@@ -49,4 +54,46 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.heading_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form_box {
+  display: flex;
+  flex-direction: column;
+  gap: 61.5px;
+}
+
+.inp_btn_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 51.8px;
+}
+
+.inp_Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 56.76px;
+}
+
+.btn_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35.06px;
+}
+
+.txt_link {
+  display: flex;
+  flex-direction: row;
+  color: #03014c;
+  font-family: "Open Sans";
+  padding-left: 25px;
+  font-size: 23.338px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
